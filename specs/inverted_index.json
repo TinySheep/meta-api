@@ -1,0 +1,108 @@
+[
+    {
+        "name": "index_name",
+        "returns": "indexName"
+    },
+    {
+        "name": "num_docs",
+        "returns": 42
+    },
+    {
+        "name": "doc_name",
+        "params": {
+			"_doc_id": 7
+        },
+        "returns": "docName"
+    },
+    {
+        "name": "doc_path",
+        "params": {
+			"_doc_id": 7
+        },
+        "returns": "docPath"
+    },
+    {
+        "name": "docs",
+        "returns": [
+			1, 2, 3
+        ]
+    },
+	{
+		"name":"doc_size",
+		"params": {
+			"_doc_id": 7
+		},
+		"returns": 42
+	},
+	{
+		"name":"get_label", 
+		"params": {
+			"_doc_id": 7
+		},
+		"returns": {
+			"label": "docLabel"
+		}
+	},
+	{
+		"name": "get_label_id",
+		"params": {
+			"_doc_id": 7
+		},
+		"returns": 42
+	},
+	{
+		"name": "get_id", 
+		"params": {
+			"_label": "classLabel"
+		},
+		"returns": 42
+	},
+	{
+		"name": "get_label_from_lbl_id", 
+		"params": {
+			"_label_id": 7
+		},
+		"returns": 42
+	},
+	{
+		"name": "num_labels", 
+		"returns": 42
+	},
+	{
+		"name": "class_labels", 
+		"returns": [
+			"label1", "label2", "label3"
+		]
+	},
+	{
+		"name": "unique_terms_by_id", 
+		"params": {
+			"_doc_id": 7
+		}, 
+		"returns": 42
+	},
+	{
+		"name": "unique_terms", 
+		"returns": 42
+	},
+	{
+		"name": "get_term_id", 
+		"params": {
+			"term": "param"
+		},
+		"returns": 42
+	},
+	{
+		"name": "get_term", 
+		"params": {
+			"_term_id":  7
+		}, 
+		"returns": "term_text"
+	},
+	{
+		"name": "search_primary",
+		"params": {
+			"_doc_id": 42
+		}
+	}
+]
